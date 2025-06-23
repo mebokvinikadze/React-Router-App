@@ -1,0 +1,35 @@
+nav {
+  margin: 25px 0px;
+}
+nav > ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style-type: none;
+}
+nav > ul > li > a {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.active {
+  color: rgb(111, 111, 111);
+}
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.layout > main {
+  width: 100%;
+  min-height: fit-content;
+  padding: 20px;
+  box-sizing: border-box;
+  flex: 1;
+}
